@@ -1,0 +1,14 @@
+
+services:
+  - type: web
+    name: ai-council-mcp
+    runtime: node
+    plan: free
+    region: oregon
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: MCP_SECRET_KEY
+        value: council_super_secret_ma0d8
+      - key: NODE_ENV
+        value: production
