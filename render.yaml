@@ -9,6 +9,6 @@ services:
     startCommand: npm start
     envVars:
       - key: MCP_SECRET_KEY
-        value: council_super_secret_ma0d8
+        value: council_super_secret_uspe2j
       - key: NODE_ENV
         value: production
